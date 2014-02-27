@@ -19,5 +19,3 @@ class User < ActiveRecord::Base
   has_secure_password
   validates :password, length: { minimum: 6 }
 end
-
-# I stopped at 6.3.2 password confirmation
